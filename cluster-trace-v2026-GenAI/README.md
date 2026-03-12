@@ -185,6 +185,7 @@ All data has undergone strict anonymization processing:
 - **Method**: MD5 hash algorithm
 - **Applied Fields**: Container IP, model version ID, request type, etc.
 - **Feature**: Same original value always maps to same hash value, ensuring correlation
+- **Time Offset**: All timestamps are anonymized with a time offset to preserve relative order but hide absolute values
 
 ## Usage Recommendations
 
